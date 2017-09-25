@@ -1,0 +1,29 @@
+/.env
+
+# Файлы проекта netbeans/phpstorm
+/nbproject
+/.idea
+.DS_Store
+composer.phar
+/composer.phar
+
+
+# Зависимости
+/vendor/**
+/bin/**
+
+# Файлы конфигурации
+/config/**
+phinx.yml
+
+# Логи
+/logs
+
+#codeception generated files(by build cmd) and logs
+tests/_output/*
+tests/_support/*
+
+.cache
+.phplint-cache
+phinx.yml.j2
+.dist

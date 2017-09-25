@@ -1,0 +1,23 @@
+{
+    "require": {
+        "monolog/monolog": "1.*",
+        "league/fractal": "0.17.0",
+        "league/flysystem-sftp": "1.*",
+        "league/container": "2.*",
+        "slim/slim": "3.8.1",
+        "symfony/cache": "3.3.*",
+        "symfony/event-dispatcher": "3.3.*",
+        "itsgoingd/clockwork": "1.14",
+        "ramsey/uuid": "3.*",
+        "zendframework/zend-diactoros": "^1.6",
+        "vlucas/phpdotenv": "^2.4",
+        "doctrine/orm": "^2.5",
+        "filp/whoops": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
